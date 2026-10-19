@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="520" viewBox="0 0 640 520">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff8fc"/><stop offset="1" stop-color="#ffddea"/></linearGradient>
+      <linearGradient id="cup" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".96"/><stop offset="1" stop-color="#ffffff" stop-opacity=".55"/></linearGradient>
+      <linearGradient id="tea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe0b7"/><stop offset="1" stop-color="#f7a66c"/></linearGradient>
+      <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#b45d83" flood-opacity=".2"/></filter>
+    </defs>
+    <rect width="640" height="520" rx="36" fill="url(#bg)"/>
+    <circle cx="90" cy="85" r="34" fill="#fff" opacity=".8"/><circle cx="545" cy="110" r="24" fill="#fff" opacity=".75"/>
+    <path d="M65 370 Q130 330 185 370 T305 370 T425 370 T575 370 L575 520 L65 520Z" fill="#ffeaf3"/>
+    <g filter="url(#shadow)">
+      <path d="M236 145 L404 145 L382 405 Q380 426 359 426 L281 426 Q260 426 258 405Z" fill="url(#cup)" stroke="#ffffff" stroke-width="10"/>
+      <path d="M246 205 L394 205 L378 397 Q376 411 358 411 L282 411 Q265 411 263 396Z" fill="url(#tea)"/>
+      <ellipse cx="320" cy="205" rx="74" ry="17" fill="#ffe0b7" opacity=".9"/>
+      <path d="M294 133 L343 133 L353 158 L286 158Z" fill="#fff" stroke="#f5c6d9" stroke-width="4"/>
+      <path d="M339 135 L372 70" stroke="#c75e48" stroke-width="13" stroke-linecap="round"/>
+      <path d="M278 236 Q290 290 280 345" stroke="#fff" stroke-width="12" opacity=".5" stroke-linecap="round" fill="none"/>
+      <circle cx="286" cy="379" r="13" fill="#57352e"/><circle cx="318" cy="390" r="13" fill="#57352e"/><circle cx="346" cy="373" r="13" fill="#57352e"/><circle cx="305" cy="359" r="12" fill="#57352e"/><circle cx="354" cy="400" r="10" fill="#57352e"/>
+      <circle cx="277" cy="248" r="8" fill="#fff" opacity=".7"/><circle cx="363" cy="278" r="7" fill="#fff" opacity=".55"/>
+    </g>
+    <g fill="#e875a7"><path d="M154 148 C138 127 111 151 154 182 C197 151 170 127 154 148Z"/><path d="M480 290 C466 272 445 291 480 317 C515 291 494 272 480 290Z"/></g>
+    <text x="320" y="466" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#a34d79">Trà đào</text>
+    <text x="320" y="493" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#bd7c9b">BÉ DÂU MILK TEA ♡</text>
+    </svg>
